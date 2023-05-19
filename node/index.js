@@ -34,7 +34,7 @@ const server = http.createServer((req,res) => {
             res.write(createVoltar());
             res.end(content);
 
-        });
+        }); 
         
     } 
 });
